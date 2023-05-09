@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <title>Lightbox Example</title>
+<!-- PEGAR la línea del llamado al CSS justo antes del cierre de la etiqueta HEAD -->	
+  <link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+<body>
+
+  <section>
+    <h3>Lo que necesita para funcionar</h3>
+    <p>El llamado a la hoja de estilos dentro de la etiqueta &lt;HEAD&gt;:</p>
+    <p><em>&lt;link href=&quot;css/lightbox.min.css&quot; rel=&quot;stylesheet&quot;&gt;</em></p>
+    <p>El llamado del archivo Javascript antes del cierre de la  etiqueta &lt;BODY&gt;:</p>
+    <p><em>&lt;script src=&quot;js/lightbox-plus-jquery.min.js&quot;&gt;&lt;/script&gt;</em></p>
+    <p>Por último el link a la imagen que va a abrir con el atributo <em>data-lightbox</em> dentro de la etiqueta &lt;a&gt; del vínculo:</p>
+    <p><em>&lt;a href=&quot;images/foto1_grande.jpg&quot; data-lightbox=&quot;imagen&quot;&gt;Foto 1&lt;/a&gt;</em></p>
+    <p>En caso que sea un conjunto hay que poner el atributo explicándolo así: <em>data-lightbox=&quot;roadtrip&quot;</em></p>
+    <p>&nbsp;</p>
+    <h3>Dos Imágenes Individuales</h3>
+    <div>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt="image-1"/></a>
+    </div>
+
+    <hr />
+
+    <h3>Conjunto de 4 Imágenes</h3>
+    <div>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+    </div>
+  </section>
+
+  <section>
+    <p>
+      For more information, visit <a href="http://lokeshdhakar.com/projects/lightbox2/">http://lokeshdhakar.com/projects/lightbox2/</a>
+    </p>
+  </section>
+
+	
+<!-- PEGAR la línea del llamado al script justo antes del cierre de la etiqueta BODY -->
+
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+</html>

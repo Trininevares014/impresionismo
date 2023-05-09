@@ -1,0 +1,144 @@
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Manrope', sans-serif;}
+
+
+h1{
+    font-family: 'Amatic SC', cursive; 
+    font-weight: 800;
+}
+
+.card-img{
+    opacity: .7;
+}
+
+.card-text{
+    font-size:xx-large; 
+    text-align: justify;
+    text-align: center;
+    margin: 10%;
+    margin-top: 5%;
+}
+
+.btm{
+    color: black;
+    text-decoration: none;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:  rgba(202, 167, 167, 0.85);
+    border-radius: 1rem;
+    box-shadow: inset 1px 1px 2px 4px rgba(233, 199, 199, 0.85);
+}
+
+
+.form{
+    max-width: 25rem;
+    padding: 1.3rem;
+    margin: 0 auto;
+    background-color: rgbas(120, 119, 123, 0.3);
+    border-radius: 0.5rem;
+    box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container-all img{
+    width: 500px;
+    float: right;
+    margin-left: 20px;
+}
+
+.container-all p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.contenedor{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.contenedor .imagen1{
+    float: right;
+    margin-left: 20px;
+   
+
+}
+
+.contenedor .imagen2{
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.contenedor p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.container{
+    max-width: 2000px;
+}
+
+
+
+.navbar{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+}
+
+.ratio{
+   float: right;
+}
+
+.footer{
+    background-color: rgba(233, 199, 199, 0.85);
+    opacity: .7;
+    margin-top: 500px;
+    
+}
+
+.footer1{
+    background-color: rgba(233, 199, 199, 0.85);
+    opacity: .7;
+}
+
+.footer-tec{
+    background-color: rgba(233, 199, 199, 0.85);
+    opacity: .7;
+    margin-top: 1500px;
+}
+
+.link{
+    text-decoration: none;
+    color:  rgba(163, 112, 112, 0.85);
+    font-size: xx-large;
+}
+
+.informacion{
+    text-align: justify;
+    padding: 50px;
+    margin-top: 15px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+}
+
+.intro{
+    text-align: center;
+}
+
+.uno{
+    color:  rgba(163, 112, 112, 0.85);
+    margin-top: 10px;
+    font-style: oblique;
+}
+
+
+
+
