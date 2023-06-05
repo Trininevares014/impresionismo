@@ -60,34 +60,38 @@
     
              <div class="col-sm-12 col-md-12 col-lg-12">
     
-              <form action="enviar.php" method="POST" class="form1">
+              <form action="registro.php" method="POST" class="form1">
                 <h1 class="display-5 text-center">SIGN UP</h1>
     
                 <div class="form-group mt-3">
                 <label for="">Nombre</label>
-                <input type="text" placeholder="Introduzca su nombre" maxlength="50" id="nombre" name="nombre" class="form-control">
+                <input type="text" placeholder="Introduzca su nombre" id="nombre" name="nombre" class="form-control" required>
                 </div>
 
                 <div class="form-group mt-3">
                     <label for="">Apellido</label>
-                    <input type="text" placeholder="Introduzca una localidad" maxlength="50" id="localidad" name="localidad" class="form-control">
+                    <input type="text" placeholder="Introduzca una localidad" id="localidad" name="localidad" class="form-control" required>
                     </div>
 
                 <div class="form-group mt-3">
                   <label for="">Email</label>
-                  <input type="text" placeholder="Introduzca su email" maxlength="50" id="email" name="email" class="form-control">
+                  <input type="text" placeholder="Introduzca su email"  id="email" name="email" class="form-control" required>
                   </div>
     
                 <div class="form-group mt-3">
                 <label for="">Usuario</label>
-                <input type="text" placeholder="Introsuzca su usuario" maxlength="50" id="usuario" name="usuario" class="form-control">
+                <input type="text" placeholder="Introsuzca su usuario" maxlength="12" id="usuario" name="usuario" class="form-control" required>
                 </div>
 
                 <div class="form-group mt-3">
                     <label for="">Clave</label>
-                    <input type="text" placeholder="Introduzca su clave" maxlength="50" id="clave" name="clave" class="form-control">
+                    <input type="password" placeholder="Introduzca su clave" maxlength="12" id="clave" name="clave" class="form-control" required>
                     </div>
-    
+
+                    <label>
+            <input name="newsletter" type="checkbox" value="si" checked="checked" /> Sí, deseo recibir informacion por mail.
+        </label><br/>
+
                 <div class="form-group mt-5">
                   <button type="submit" class="btn btn-primary bg-white text-dark">Registrarte</button>
                 </div>

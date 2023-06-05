@@ -10,11 +10,11 @@
 
 <?php
 $usuario=$_POST['usuario'];
-$password=md5$_POST['password'];
+$password=md5($_POST['password']);
 
 include("conexion.php");
 
-$consulta=mysqli_query($conexion, "SELECT nombre, apellido, email FROM usuarios WHERE usuario='$usuario' AND clave='$password'");
+$consulta=mysqli_query($conexion, "SELECT nombre, apellido, mail FROM usuarios WHERE usuario='$usuario' AND clave='$password'");
 
 $resultado=mysqli_num_rows($consulta);
 

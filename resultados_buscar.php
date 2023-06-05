@@ -50,7 +50,7 @@
           </div>
         </div>
       </nav>
-	  
+
 <section>
 <?php
 	include('conexion.php');
@@ -60,7 +60,7 @@
 
 	$consulta = mysqli_query($conexion, "SELECT * FROM artistas WHERE nombre LIKE '%$buscar%' OR apellido LIKE '%$buscar%' ");
 ?>
-<article style="width:60%;margin:0 auto;border:solid;padding:10px">
+<article style="width:90%;margin:0 auto;border:solid;padding:10px">
 	<p>Cantidad de Resultados: 
 	<?php
 		$nros=mysqli_num_rows($consulta);
