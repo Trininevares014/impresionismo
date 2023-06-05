@@ -70,6 +70,8 @@ h1{
     text-align: justify;
 }
 
+
+
 .contenedor{
     max-width: 1300px;
     margin: auto;
@@ -94,9 +96,15 @@ h1{
     text-align: justify;
 }
 
-.container{
+
+
+.galeria{
     max-width: 2000px;
+    align-items: center;
+    justify-content: center;
+    
 }
+
 
 
 
@@ -126,6 +134,8 @@ h1{
     opacity: .7;
     margin-top: 1500px;
 }
+
+
 
 .link{
     text-decoration: none;
