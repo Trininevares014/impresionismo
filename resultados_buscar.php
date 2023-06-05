@@ -92,5 +92,21 @@
 </article>
 </section>
 
+
+<footer class="footer">
+          <div class="container-fluid foot1 py-3">
+              <div class="container py-3">
+        
+                      <div class="col-10 text-dark">
+                          <div class="copy">
+                              <p>Copyright ®2023 - Derechos reservados <br> Universidad de Palermo</p>
+                          </div>
+                      </div>
+                  
+              </div>
+          </div>
+        
+        </footer>
+
 </body>
 </html>

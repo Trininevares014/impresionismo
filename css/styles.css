@@ -10,7 +10,7 @@ h1{
     opacity: .7;
 }
 
-.card-text{
+.card-text1{
     font-size:xx-large; 
     text-align: justify;
     text-align: center;
@@ -99,11 +99,23 @@ h1{
 
 
 .galeria{
-    max-width: 2000px;
-    align-items: center;
-    justify-content: center;
-    
+    width: 1000px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 40px;
+    justify-content: space-between;
 }
+
+.card-text{
+    font-family:'Manrope', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.col{
+    margin-top: 20px;
+}
+
 
 .boton1{
     color: black;
@@ -124,6 +136,13 @@ h1{
     background-color: rgba(233, 199, 199, 0.85);
     opacity: .7;
     margin-top: 500px;
+    
+}
+
+.footer-gal{
+    background-color: rgba(233, 199, 199, 0.85);
+    opacity: .7;
+    margin-top: 1500px;
     
 }
 
