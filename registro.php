@@ -10,26 +10,15 @@
 <?php
 	$nombre = $_POST['nombre'];
 	$apellido = $_POST['apellido'];
-	$email = $_POST['email'];
+	$email = $_POST['mail'];
 	$usuario = $_POST['usuario'];
-	$password = md5($_POST['clave']);
-
-/*if(isset($_POST['newsletter'])){
-	$news="si";
-}else{
-	$news="no";
-}*/
-	if ($_POST['newsletter'] === "") {
-		$news="no";
-	} else {
-		$news="si";
-	}
+	$clave = md5($_POST['clave']);
 
 
 	include("conexion.php");
 
 
-	$consulta = mysqli_query($conexion, "INSERT INTO usuarios (nombre, apellido, email, usuario, clave, newsletter) VALUES('$nombre','$apellido','$email', '$password', '$clave', '$news')");
+	$consulta = mysqli_query($conexion, "INSERT INTO usuarios  VALUES (0,'$usuario', '$clave','$nombre','$apellido','$email')");
 
 
 	header("Location:form_login.php");
