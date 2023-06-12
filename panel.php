@@ -1,4 +1,4 @@
-lo<?php session_start();?>
+<?php session_start();?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,16 +9,15 @@ lo<?php session_start();?>
 
 if(isset($_SESSION['nombre']) and isset($_SESSION['apellido']) ){
 	
-echo "Hola! ";
+echo "Hola!";
 echo $_SESSION['nombre']." ";
 echo $_SESSION['apellido'];
-echo "<p><img src='imagenes/cuadro.jpg' /></p>";
+echo "<p><img src='img/bg.jpg'/></p>";
 echo "<a href='salir.php'>Cerrar sesion</a>";
 
 	
 }else{
 	echo "Solo usuarios registrados...";
-//	include("form_registro.php");
 	include("form_login.php");
 }
 ?>

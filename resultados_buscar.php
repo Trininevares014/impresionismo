@@ -39,7 +39,7 @@
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success text-dark" type="submit">Search</button>
+              <button class="btn btn-secondary text-dark" type="submit">Search</button>
             </form>
             <a href="signup.html">
               <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="login bi bi-person-circle" viewBox="0 0 16 16">
@@ -60,7 +60,7 @@
 
 	$consulta = mysqli_query($conexion, "SELECT * FROM artistas WHERE nombre LIKE '%$buscar%' OR apellido LIKE '%$buscar%' ");
 ?>
-<article style="width:90%;margin:0 auto;border:solid;padding:10px">
+<article style="width:90%;margin:0 auto;padding:10px">
 	<p>Cantidad de Resultados: 
 	<?php
 		$nros=mysqli_num_rows($consulta);
@@ -76,9 +76,9 @@
 	?>
     <p>
     <?php	
-			echo $resultados['nombre'] . " ";
-			echo $resultados['apellido'] . " --> ";
-			echo $resultados['bio'] . " --> ";
+			echo $resultados['nombre'];
+			echo $resultados['apellido'];
+			echo $resultados['bio'];
 	?>
     </p>
     <hr/>
